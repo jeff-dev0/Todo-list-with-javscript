@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.task-add,
+.task-delete-all {
+    background-color: #42bde3;
+    border: #42bde3;
+    font-weight: bold;
+}
+
+.checked {
+    text-decoration: line-through;
+    opacity: .5;
+}
+
+.task-remove {
+    cursor: pointer;
+}
+
+.task-check:checked .task-link {
+    text-decoration: line-through;
+}
+
+.task-check {
+    color: #42bde3;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all .5s ease-in-out;
+}
+
+.task-link {
+    padding: 0px;
+    margin: 0px;
+    color: #232323;
+}
